@@ -5,10 +5,10 @@ The Community Edition of SonarQube does not provide an official way to **export 
 
 ##  Features
 
-- ✅ Export **unresolved issues** from any project analyzed by SonarQube.
-- ✅ Enrich issues with **rule metadata** (bug descriptions, language, etc.).
-- ✅ Generate a clean, de-duplicated `bug_fixes.csv` file.
-- ✅ Fully automated with Python and SonarQube REST APIs.
+- Export **unresolved issues** from any project analyzed by SonarQube.
+- Enrich issues with **rule metadata** (bug descriptions, language, etc.).
+- Generate a clean, de-duplicated `bug_fixes.csv` file.
+- Fully automated with Python and SonarQube REST APIs.
 
 ##  How It Works
 
@@ -37,10 +37,10 @@ This tool leverages **SonarQube's REST API** to extract project-specific issues 
 
 ## Pre-requisites
 
-- ✅ Python 3.7+
-- ✅ SonarQube Community Edition (running at `http://localhost:9000`)
-- ✅ A valid **SonarQube API Token**
-- ✅ Installed Python packages:
+- Python 3.7+
+- SonarQube Community Edition (running at `http://localhost:9000`)
+- A valid **SonarQube API Token**
+- Installed Python packages:
   - `requests`
   - `pandas`
 
