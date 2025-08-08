@@ -137,5 +137,8 @@ Final `bug_fixes.csv` will look like:
 
 This workaround gives SonarQube Community users better visibility into issues and supports external analysis or automation.
 
+## Demo Video
+https://github.com/user-attachments/assets/d5d4a224-895d-4114-8b83-49424017ab57
+
 
 
