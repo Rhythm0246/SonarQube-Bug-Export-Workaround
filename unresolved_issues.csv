@@ -1,0 +1,11 @@
+rule,file_name
+python:S1481,test1.py
+python:S1481,test1.py
+python:S1481,test1.py
+python:S1716,test2.py
+python:S5632,test2.py
+python:S2823,test3.py
+python:S2823,test3.py
+python:S1716,test4.py
+python:S1716,test4.py
+python:S5549,test5.py

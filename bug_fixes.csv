@@ -1,0 +1,7 @@
+code_language,file_name,bug_description
+python,test1.py,Unused local variables should be removed
+python,test2.py,"""break"" and ""continue"" should not be used outside a loop"
+python,test4.py,"""break"" and ""continue"" should not be used outside a loop"
+python,test3.py,"Only strings should be listed in ""__all__"""
+python,test5.py,Function arguments should be passed only once
+python,test2.py,Raised Exceptions must derive from BaseException
