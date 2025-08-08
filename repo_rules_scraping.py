@@ -1,7 +1,7 @@
 import requests
 import csv
 import pandas as pd
-TOKEN = "squ_5d910e07d0110f860308776c294fc9e6dd85ca11"
+TOKEN = "Enter your token"
 BASE_URL = "http://localhost:9000/api/issues/search"
 
 
