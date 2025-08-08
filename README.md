@@ -1,6 +1,6 @@
 # 🛠️ SonarQube Bug Export Workaround
 
-> ⚠️ The Community Edition of SonarQube does not provide an official way to **export unresolved issues** or **generate bug reports**. This project offers a **workaround** by programmatically retrieving and correlating SonarQube issues with their rule metadata, producing a useful `.csv` export.
+⚠️ The Community Edition of SonarQube does not provide an official way to **export unresolved issues** or **generate bug reports**. This project offers a **workaround** by programmatically retrieving and correlating SonarQube issues with their rule metadata, producing a useful `.csv` export.
 
 
 ## 🚀 Features
