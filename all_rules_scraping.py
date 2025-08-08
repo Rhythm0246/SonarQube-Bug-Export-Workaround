@@ -2,7 +2,7 @@ import requests
 import csv
 
 # Replace with your actual SonarQube token
-TOKEN = "squ_5d910e07d0110f860308776c294fc9e6dd85ca11"
+TOKEN = "Enter your token here"
 BASE_URL = "http://localhost:9000/api/rules/search"
 PAGE_SIZE = 500
 
