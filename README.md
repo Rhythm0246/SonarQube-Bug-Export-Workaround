@@ -2,7 +2,6 @@
 
 > ⚠️ The Community Edition of SonarQube does not provide an official way to **export unresolved issues** or **generate bug reports**. This project offers a **workaround** by programmatically retrieving and correlating SonarQube issues with their rule metadata, producing a useful `.csv` export.
 
----
 
 ## 🚀 Features
 
@@ -11,7 +10,6 @@
 - ✅ Generate a clean, de-duplicated `bug_fixes.csv` file.
 - ✅ Fully automated with Python and SonarQube REST APIs.
 
----
 ## 🔍 How It Works
 
 This tool leverages **SonarQube's REST API** to extract project-specific issues and metadata. Here's the flow:
@@ -36,7 +34,6 @@ This tool leverages **SonarQube's REST API** to extract project-specific issues 
 
 📁 **Final Output:** A clean list of file-level issues enriched with descriptions for bug tracking, analysis, or automation.
 
----
 
 ## 📦 Pre-requisites
 
@@ -58,8 +55,6 @@ _If `requirements.txt` is missing:_
 ```bash
 pip install requests pandas
 ```
-
----
 
 ## ⚙️ Installation
 
@@ -83,8 +78,6 @@ docker ps
 TOKEN = "your_actual_sonar_token_here"
 ```
 
----
-
 ## ▶️ Usage
 
 There are **two main steps**:
@@ -99,8 +92,6 @@ python3 all_rules_scraping.py
 
 Output:
 - `all_sonarqube_rules.csv`
-
----
 
 ### Step 2: Export Unresolved Issues for a Project
 
@@ -120,7 +111,6 @@ Output:
 - `unresolved_issues.csv`
 - `bug_fixes.csv` (final enriched file)
 
----
 
 ## 🧪 Example Session
 
@@ -145,9 +135,8 @@ Final `bug_fixes.csv` will look like:
 | java          | MyClass.java     | “Equals() should not be used...”     |
 | py            | script.py        | “Use ‘is’ for comparison to None...” |
 
----
 
 > 🧠 This workaround gives SonarQube Community users better visibility into issues and supports external analysis or automation.
 
----
+
 
