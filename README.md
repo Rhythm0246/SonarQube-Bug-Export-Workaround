@@ -1,16 +1,16 @@
-# 🛠️ SonarQube Bug Export Workaround
+# SonarQube Bug Export Workaround
 
-⚠️ The Community Edition of SonarQube does not provide an official way to **export unresolved issues** or **generate bug reports**. This project offers a **workaround** by programmatically retrieving and correlating SonarQube issues with their rule metadata, producing a useful `.csv` export.
+The Community Edition of SonarQube does not provide an official way to **export unresolved issues** or **generate bug reports**. This project offers a **workaround** by programmatically retrieving and correlating SonarQube issues with their rule metadata, producing a useful `.csv` export.
 
 
-## 🚀 Features
+##  Features
 
 - ✅ Export **unresolved issues** from any project analyzed by SonarQube.
 - ✅ Enrich issues with **rule metadata** (bug descriptions, language, etc.).
 - ✅ Generate a clean, de-duplicated `bug_fixes.csv` file.
 - ✅ Fully automated with Python and SonarQube REST APIs.
 
-## 🔍 How It Works
+##  How It Works
 
 This tool leverages **SonarQube's REST API** to extract project-specific issues and metadata. Here's the flow:
 
@@ -32,10 +32,10 @@ This tool leverages **SonarQube's REST API** to extract project-specific issues 
    - Selects and renames columns: `code_language`, `file_name`, and `bug_description`.
    - Removes duplicates and saves final `bug_fixes.csv`.
 
-📁 **Final Output:** A clean list of file-level issues enriched with descriptions for bug tracking, analysis, or automation.
+ **Final Output:** A clean list of file-level issues enriched with descriptions for bug tracking, analysis, or automation.
 
 
-## 📦 Pre-requisites
+## Pre-requisites
 
 - ✅ Python 3.7+
 - ✅ SonarQube Community Edition (running at `http://localhost:9000`)
@@ -56,7 +56,7 @@ _If `requirements.txt` is missing:_
 pip install requests pandas
 ```
 
-## ⚙️ Installation
+## Installation
 
 1. Clone this repository or download the scripts:
 
@@ -78,7 +78,7 @@ docker ps
 TOKEN = "your_actual_sonar_token_here"
 ```
 
-## ▶️ Usage
+## Usage
 
 There are **two main steps**:
 
@@ -105,14 +105,14 @@ It will prompt:
 enter the repo for which u want to pull the bugs :
 ```
 
-➡️ Provide your project key (e.g., `my_project_key`)
+ Provide your project key (e.g., `my_project_key`)
 
 Output:
 - `unresolved_issues.csv`
 - `bug_fixes.csv` (final enriched file)
 
 
-## 🧪 Example Session
+## Example Session
 
 ```bash
 $ python3 all_rules_scraping.py
@@ -136,7 +136,7 @@ Final `bug_fixes.csv` will look like:
 | py            | script.py        | “Use ‘is’ for comparison to None...” |
 
 
-> 🧠 This workaround gives SonarQube Community users better visibility into issues and supports external analysis or automation.
+> This workaround gives SonarQube Community users better visibility into issues and supports external analysis or automation.
 
 
 
