@@ -135,8 +135,7 @@ Final `bug_fixes.csv` will look like:
 | java          | MyClass.java     | “Equals() should not be used...”     |
 | py            | script.py        | “Use ‘is’ for comparison to None...” |
 
-
-> This workaround gives SonarQube Community users better visibility into issues and supports external analysis or automation.
+This workaround gives SonarQube Community users better visibility into issues and supports external analysis or automation.
 
 
 
